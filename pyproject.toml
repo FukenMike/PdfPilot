@@ -1,0 +1,20 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.11.0.post1",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.28",
+    "numpy>=2.3.2",
+    "openai>=1.97.1",
+    "opencv-python>=4.11.0.86",
+    "pdf2image>=1.17.0",
+    "pdfplumber>=0.11.7",
+    "pypdf2>=3.0.1",
+    "pytesseract>=0.3.13",
+    "streamlit>=1.47.1",
+    "tiktoken>=0.9.0",
+]
